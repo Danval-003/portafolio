@@ -1,7 +1,3 @@
-This README presents the personal portfolio of **Daniel Valdez**, showcasing his background, featured projects, technical skills, and contact details in a clear, organized layout designed for quick scanning and easy navigation([FreeCodeCamp][1]). It follows GitHub’s recommended structure—overview, table of contents, sections for description, projects, skills, and contact—to help visitors find information efficiently([GitHub Docs][2]). Each section is prefaced with a brief guiding sentence to explain its purpose, emphasizing brevity and relevance as advised by documentation best practices([GitHub Docs][3]). This format is inspired by popular enhanced README templates that balance visuals and text to engage readers without overwhelming them([GitHub][4]).
-
----
-
 ## 📋 Table of Contents
 
 Use this list to jump to any section of the README quickly([GitHub Docs][2]).
