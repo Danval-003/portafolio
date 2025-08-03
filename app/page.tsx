@@ -6,7 +6,12 @@ import SkillsSection from "./Sections/SkillsSection";
 
 export default function Home() {
   return (
-    <div className="font-sans  items-center justify-items-center min-h-screen bg-[#00215b]">
+    <div
+      className="font-sans  items-center justify-items-center min-h-screen bg-[#00215b]"
+      style={{
+        overflowX: "hidden",
+      }}
+    >
       <main className={"flex flex-col w-screen"}>
         <HeroSection
           name="Daniel Valdez"

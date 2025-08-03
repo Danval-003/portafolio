@@ -9,7 +9,7 @@ type HeroProps = {
 
 const HeroSection: React.FC<HeroProps> = ({ name, tagline, ctaText }) => (
   <header
-    className="fixed top-0 left-0 w-full z-50 bg-transparent"
+    className="fixed top-0 left-0 w-screen z-50 bg-transparent"
     style={{
       zIndex: 9999999,
     }}
