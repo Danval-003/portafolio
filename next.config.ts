@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-const repoName = "portafolio";
+const repoName = "";
 const basePath = isGithubActions ? `/${repoName}` : "";
 const assetPrefix = isGithubActions ? `/${repoName}` : "";
 console.log("Base Path:", basePath);

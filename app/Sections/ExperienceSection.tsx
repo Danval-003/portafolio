@@ -23,7 +23,7 @@ const experiences: Experience[] = [
     emoji: "📱",
     role: "Frontend Developer",
     company: "Explorax (Fundación del Valle)",
-    period: "Jan 2023 – Oct 2023",
+    period: "Sep 2024 - Present",
     details: [
       "Built React Native SVG interfaces for interactive learning",
       "Compressed videos 700×400 @20 fps (3–7 MB) via FFmpeg + Python",
@@ -44,7 +44,7 @@ const experiences: Experience[] = [
     emoji: "🐔",
     role: "Backend Developer",
     company: "Private Poultry Farm",
-    period: "Feb 2022 – Jul 2022",
+    period: "Feb 2023 – Oct 2023",
     details: [
       "Created Flask REST API with auth & validation",
       "Optimized PostgreSQL schema: −25% report time",
