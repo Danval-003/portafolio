@@ -31,7 +31,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Tu Portafolio",
+  title: "Daniel Valdez - Full Stack Developer",
   description: "Portfolio de Daniel Valdez",
 };
 
