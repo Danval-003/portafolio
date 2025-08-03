@@ -1,7 +1,5 @@
 const obtainAssetUrl = (asset: string): string => {
-  const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-  const repoName = "";
-  const basePath = isGithubActions ? `/${repoName}` : "";
+  const basePath = "";
   return `${basePath}${asset}`;
 };
 

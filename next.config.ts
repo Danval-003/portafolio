@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
-const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-const repoName = "";
-const basePath = isGithubActions ? `/${repoName}` : "";
-const assetPrefix = isGithubActions ? `/${repoName}` : "";
+const basePath = "";
+const assetPrefix = "";
 console.log("Base Path:", basePath);
 console.log("Asset Prefix:", assetPrefix);
 
