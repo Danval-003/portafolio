@@ -1,7 +1,21 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isGithubActions = process.env.GITHUB_ACTIONS === "true";
+const repoName = "portafolio";
+const basePath = isGithubActions ? `/${repoName}` : "";
+const assetPrefix = isGithubActions ? `/${repoName}` : "";
+console.log("Base Path:", basePath);
+console.log("Asset Prefix:", assetPrefix);
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: "export",
+  basePath,
+  assetPrefix,
+  images: {
+    unoptimized: true, // Evita llamadas a /_next/image
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath, // Disponibiliza el prefix al cliente
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
